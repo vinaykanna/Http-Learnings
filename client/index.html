@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Http Learnings</title>
+  </head>
+  <body>
+    <div id="app" style="max-width: 500px; margin: auto; text-align: center">
+      <h1>Image streaming</h1>
+      <img
+        id="img"
+        width="500px"
+        height="500px"
+        style="object-fit: cover; display: none; margin-top: 30px"
+        alt=""
+      />
+      <h1 id="progress" style="font-size: 80px"></h1>
+    </div>
+    <script type="module" src="/src/fetch-image-stream.ts"></script>
+  </body>
+</html>
